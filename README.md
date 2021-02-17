@@ -3,7 +3,7 @@
 Unterlagen zum WIFI Kurs "Mobile Web Apps entwickeln" im Frühjahr 2021.
 
 - Vortragender: Alexander Miller
-- Termine: siehe [WIFI Stundenplan](https://www.wifisalzburg.at/stundenplan/86150010). Die Prüfung findet am letzten Kursabend, dem 23. März 2021, statt.
+- Termine: siehe [WIFI Stundenplan](https://www.wifisalzburg.at/stundenplan/86150010). Der Vortrag findet online über Zoom statt. Die Prüfung findet am letzten Kursabend (Dienstag, 23. März 2021) im WIFI Salzburg statt.
 
 ## Allgemeines
 

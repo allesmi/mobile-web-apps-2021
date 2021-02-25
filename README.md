@@ -16,7 +16,7 @@ Session | Thema | Folien | Übung
 ---|---|---|---
 1 | Organisatorisches | [01-intro.pdf](slides/01-intro.pdf) | [Taschenrechner](src/01)
 2 | Datenstrukturen in JS | [data-structures.pdf](slides/data-structures.pdf) | [Queue und Stack](src/02)
-3
+3 | ES6 Klassen, Zufallszahlen, Zeitmessung | --- | [RandomList](src/03)
 4
 5
 6

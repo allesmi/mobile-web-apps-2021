@@ -23,10 +23,11 @@ function onSearchClick() {
         start = performance.now();
         const n = randomList.count(value);
         const countTime = performance.now() - start;
-        output.textContent = value + " wurde " + n + "-mal gefunden. " + countTime + "ms";
+        output.textContent = `${value} wurde ${n}-mal gefunden. isInListTime=${isInListTime}ms, countTime=${countTime}ms`;
+
     }
     else {
-        output.textContent = value + " wurde nicht gefunden.";
+        output.textContent = `${value} wurde nicht gefunden, isInListTime=${isInListTime}ms.`;
     }
 }
 

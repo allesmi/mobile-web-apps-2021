@@ -1,6 +1,6 @@
-class Dog {
+class Cow {
     /**
-     * Creates a dog with name `name`.
+     * Creates a cow with name `name`.
      * 
      * @param {string} name 
      */
@@ -9,11 +9,11 @@ class Dog {
     }
 
     /**
-     * Returns the sound of a dog.
+     * Returns the sound of a cow.
      * 
      * @return {string} Sound
      */
     talk() {
-        return "Wuff";
+        return "Muh";
     }
 }

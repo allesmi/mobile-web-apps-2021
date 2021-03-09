@@ -9,27 +9,42 @@ function getRandomDogName() {
     return dogNames[Math.floor(Math.random() * dogNames.length)];
 }
 
-function onCreateButtonClick(event) {
-    // HÜ: Ein zufälliges Tier soll erzeugt werden, entweder Hund oder Kuh
-    // if (Math.random() > 0.5) ... else ...
+function getRandomCowName() {
+    const dogNames = ['Ophelia', 'Zenzi', 'Resi'];
+    return dogNames[Math.floor(Math.random() * dogNames.length)];
+}
 
-    // Neues objekt der Klasse Dog erzeugen mit beliebigem Namen
-    const dog = new Dog(getRandomDogName() + nextId);
+function onCreateButtonClick(event) {
+    
+    const element = document.createElement('div');
+    let animal;
+    const id = nextId;
+    nextId++;
+
+    if (Math.random() < 0.5) {
+        const name = getRandomDogName();
+        animal = new Dog(name);
+        element.textContent = `Dog: ${name}`;
+        element.classList.add('dog');
+    }
+    else {
+        const name = getRandomCowName();
+        animal = new Cow(getRandomCowName());
+        element.textContent = `Cow: ${name}`;
+        element.classList.add('cow');
+    }
 
     // objekt in animals einfuegen
+    element.dataset.animalId = id;
+    animals.push(animal);
 
-    // neues HTML Element mit der Id des objekts
-    // und als Inhalt Dog: <name> erzeugen und in den DOM
-    // Tree einfuegen.
-
-    // HÜ: Je nach Tierart unterschiedliche CSS Klassen setzen
-    // element.classList.add('dog')
+    main.appendChild(element);
 }
 
 function onMainClick(event) {
-    // HÜ: 
-    // Mittels data attribute das geklickte Tier-Objekt finden
-    // Ausgabe von Tiername (name) und Tierlaut (talk())
+    const id = parseInt(event.target.dataset.animalId);
+
+    output.textContent = animals[id].talk();
 }
 
 const createButton = document.querySelector('#create-button');

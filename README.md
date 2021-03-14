@@ -18,9 +18,9 @@ Session | Thema | Folien | Übung
 2 | Datenstrukturen in JS | [data-structures.pdf](slides/data-structures.pdf) | [Queue und Stack](src/02)
 3 | ES6 Klassen, Zufallszahlen, Zeitmessung | --- | [RandomList](src/03)
 4 | Datenstrukturen, Wiederholung | --- | [Wiederholung](src/04)
-5
-6
-7
+5 | Klassen | --- | [Farm](src/05)
+6 | AJAX mit fetch | --- | [fetch, user list](src/06)
+7 | AJAX, CORS | --- | [Film API](src/07)
 8
 9
 10 | Prüfung

@@ -10,13 +10,13 @@ https://test.sunbeng.eu/
 
 Die API bietet folgende Endpunkte:
 
-GET /
+### GET `/`
 Antwortet mit einem einfachen Hallo (zum Testen, ob der fetch überhaupt funktioniert)
 
-GET /api/messages
+### GET `/api/messages`
 Liefert eine Liste mit den letzten 100 Nachrichten. Die Nachrichten Objekte sind wie unten beschrieben.
 
-POST /api/messages
+### POST `/api/messages`
 Schickt eine Nachricht an den Server
 
 ## Daten

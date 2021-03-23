@@ -21,6 +21,6 @@ Session | Thema | Folien | Übung
 5 | Klassen | --- | [Farm](src/05)
 6 | AJAX mit fetch | [AJAX](slides/ajax.pdf) | [fetch, user list](src/06)
 7 | AJAX, CORS | --- | [Film API](src/07)
-8
-9
+8 | AJAX, Geolocation | [Geolocation](slides/geolocation.pdf) | [Chat](src/08), [Geolocation](src/08-geolocation)
+9 | Wiederholung | --- | [Adresssuche](src/09)
 10 | Prüfung

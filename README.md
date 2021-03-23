@@ -23,4 +23,4 @@ Session | Thema | Folien | Übung
 7 | AJAX, CORS | --- | [Film API](src/07)
 8 | AJAX, Geolocation | [Geolocation](slides/geolocation.pdf) | [Chat](src/08), [Geolocation](src/08-geolocation)
 9 | Wiederholung | --- | [Adresssuche](src/09)
-10 | Prüfung
+10 | Prüfung | [exam-2021.pdf](exam-2021.pdf) | ---
